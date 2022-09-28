@@ -1,0 +1,24 @@
+{
+  "name": "simple_chat_app",
+  "version": "1.0.0",
+  "description": "\"chat app to talking with the world.\"",
+  "main": "main.js",
+  "scripts": {
+    "test": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahmed101Mohammed/simple-chat-app.git"
+  },
+  "keywords": [
+    "chat",
+    "chat-app",
+    "socket-app"
+  ],
+  "author": "Ahmed M. Mohamed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ahmed101Mohammed/simple-chat-app/issues"
+  },
+  "homepage": "https://github.com/Ahmed101Mohammed/simple-chat-app#readme"
+}
