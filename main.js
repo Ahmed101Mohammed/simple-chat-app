@@ -8,6 +8,9 @@ require('dotenv').config();
 const app = express();
 const server = http.createServer(app);
 
+// MiddlewaresL:
+app.use(express.static(path.join(__dirname,'public')));
+
 // Routes:
 app.use('/||home',require(path.join(__dirname,'routers','home.js')));
 
