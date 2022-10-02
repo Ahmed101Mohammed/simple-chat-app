@@ -17,8 +17,12 @@ app.use(express.static(path.join(__dirname,'public')));
 app.use('/||home',require(path.join(__dirname,'routers','home.js')));
 
 // io server:
-io.on('connect',(socket)=>{
+io.on('connection',(socket)=>{
     console.log('a user connected');
+
+    socket.on('disconnect', ()=>{
+        console.log('The user is disconnecting')
+    })
 })
 // Run the server:
 const Port = process.env.PORT || 8000; 
