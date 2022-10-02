@@ -19,7 +19,10 @@ app.use('/||home',require(path.join(__dirname,'routers','home.js')));
 // io server:
 io.on('connection',(socket)=>{
     console.log('a user connected');
-
+    
+    socket.on('chat message', (mssg)=>{
+        console.log('Message:',mssg);
+    })
     socket.on('disconnect', ()=>{
         console.log('The user is disconnecting')
     })
