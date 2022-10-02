@@ -2,13 +2,13 @@
 const express = require('express');
 const http = require('http');
 const path = require('path');
-const socketIo =  require('path');
+const socketIo =  require('socket.io');
 require('dotenv').config();
 
 // Prepare the server:
 const app = express();
 const server = http.createServer(app);
-const io = new socketIo.server(server);
+const io = new socketIo.Server(server);
 
 // MiddlewaresL:
 app.use(express.static(path.join(__dirname,'public')));
