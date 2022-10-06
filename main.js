@@ -21,14 +21,15 @@ io.on('connection',(socket)=>{
     console.log('a user connected');
     
     socket.on('chat message', (mssg)=>{
-        console.log('Message:',mssg);
-    })
+        io.emit('chat message', mssg);
+    });
+
     socket.on('disconnect', ()=>{
         console.log('The user is disconnecting')
     })
 })
 // Run the server:
-const Port = process.env.PORT || 8000; 
+const Port = process.env.PORT || 8000;
 server.listen(Port,()=>{
     console.log(`The Server is runing at port ${Port}`);
 })
