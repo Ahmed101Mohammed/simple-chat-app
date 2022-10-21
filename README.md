@@ -1,3 +1,11 @@
+![GitHub](https://img.shields.io/github/license/Ahmed101Mohammed/simple-chat-app?color=blue&style=flat-square)
+&nbsp;
+![GitHub Repo stars](https://img.shields.io/github/stars/Ahmed101Mohammed/simple-chat-app?style=flat-square)
+&nbsp;
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Ahmed101Mohammed/simple-chat-app?color=blue&style=flat-square)
+&nbsp;
+![GitHub repo file count](https://img.shields.io/github/directory-file-count/Ahmed101Mohammed/simple-chat-app?style=flat-square)
+
 # simple-chat-app
 It's a simple chat application I build as an exercise from
 socket.io document examples.
