@@ -14,7 +14,7 @@ You can install the project by cloning the repository in your computer by typing
 gh repo clone Ahmed101Mohammed/simple-chat-app
 ```
 ### Running the application:
-To running the project, inter the project file by your terminal and do that: 
+To run the project, inter the project file by your terminal and do that: 
 <br />
 
 1- Type this line in your terminal:
@@ -37,3 +37,17 @@ npm test
 ```
 http://localhost:8080/
 ```
+
+## How to use the application:
+### How to write a message:
+When you open the application in the browser, you will see the home page:
+![Home page](https://github.com/Ahmed101Mohammed/simple-chat-app/blob/main/images/allPage.png)
+
+in the lower part of the home page you can see the message input field, where you can write your message:
+![Message input](https://github.com/Ahmed101Mohammed/simple-chat-app/blob/main/images/messageInput.png)
+
+### How to send a message:
+To send the message you will press on the ``send`` button and the message will appear in the messages container:
+<br />
+
+![container of messages (messages view)](https://github.com/Ahmed101Mohammed/simple-chat-app/blob/main/images/messagingContainer.png)
