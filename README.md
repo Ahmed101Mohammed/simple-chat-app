@@ -51,3 +51,7 @@ To send the message you will press on the ``send`` button and the message will a
 <br />
 
 ![container of messages (messages view)](https://github.com/Ahmed101Mohammed/simple-chat-app/blob/main/images/messagingContainer.png)
+
+## How to test the WebSocket protocol in this project:
+> Open many pages of this project in your browser and send messages from them,
+> You will see that the messages appear in all sockets.
